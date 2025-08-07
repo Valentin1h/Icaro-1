@@ -22,14 +22,40 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <form action="">
-            <input type="text" placeholder="Nombre completo">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Telefono/Celular">
-            <input type="password" placeholder="Contraseña">
-            <input type="button" value="Enviar">    
+    <div class="contacto__wrapper">
+        <form action="#" method="post">
+            <fieldset class="fieldset">
+            <legend class="legend"><h2 class="h2__contact">FORMULARIO DE CONTACTO</h2></legend>
+
+
+            <fieldset class="fieldset">
+                <legend class="legend"><label class="label" for="nombre">Nombre</label><br></legend>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="legend"><label class="label" for="email">Email</label><br></legend>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="legend"><label for="mensaje">Envia tu mensaje</label></legend><br>
+                <textarea name="mensaje" id="mensaje" rows="5" cols="30" required></textarea><br>
+            </fieldset>
+
+            <input class="button__form" type="submit" value="Enviar">
+            </fieldset>
         </form>
-    </main>
+    </div>
+    <footer class="footer">
+        <p>
+            Derechos reservados @ 2025
+        </p>
+        <div>
+            <a class="link__footer" href="mailto:valentingigena51@gmail.com">valentingigena51@gmail.com</a>
+        </div>
+    </footer>
 </body>
 </html>

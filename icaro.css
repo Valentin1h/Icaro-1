@@ -195,7 +195,7 @@ p:last-child {
 
 /*--- MAIN HOME END ---*/
 
-/*---  MAIN PROFILE SECTION ---*/
+/*---  PROFILE SECTION ---*/
 
 .profile {
     container-type: inline-size;
@@ -219,6 +219,7 @@ p:last-child {
 }
 
 .img__profile {
+    box-shadow: 2px 2px 5px 0;
     max-width: 100%;
     width: 300px;
     border-radius: 20px;
@@ -233,6 +234,8 @@ p:last-child {
     padding: 15px;
     text-align: center;
 }
+
+/*--- PROFILE QUERIES ---*/
 
 @container profile (min-width: 700px) {
 
@@ -278,6 +281,115 @@ p:last-child {
 
 }
 
+/*--- PROFILE ENDS ---*/
+
+/*--- CONTACTO SECTION ---*/
+
+.contacto__wrapper {
+    margin: auto;
+    margin-top: 2.5rem;
+    max-width: 900px;
+}
+
+.h2__contact {
+    margin: 1rem;
+}
+
+.legend {
+    background-color: #48e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid;
+    box-shadow: 0 0 10px 1px;
+}
+
+
+.fieldset {
+    border-radius: 10px;
+    border: solid 6px #0003;
+    margin: 2.5rem;
+    background-color: #12183f;
+}
+
+.label {
+    padding: 20px
+}
+
+#nombre {
+    min-width: 70%;
+    margin: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-left: solid 2px #fff;
+    border-radius: 9px;
+    color: #fff;
+}
+
+#email {
+    min-width: 60%;
+    margin: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-left: solid 2px #fff;
+    border-radius: 9px;
+    color: #fff;
+}
+
+#mensaje {
+    margin: 20px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-left: solid 2px #fff;
+    border-radius: 9px;
+    color: #fff;
+}
+
+.button__form {
+    margin: 10px;
+    font-size: 20px;
+    background-color: #0002;
+    color: #48e;
+    margin-bottom: 3%;
+}
+
+/*--- CONTACTO SECTION END ---*/
+
+/*--- HOBBY SECTION ---*/
+
+.h2__hobby {
+    font-size: 35px;
+    text-decoration: underline;
+    color: #48e;
+    margin-top: 3rem;
+}
+
+.hobby__main-wrapper {
+    text-align: center;
+    text-wrap: balance;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.lectura-img {
+    max-width: 100%;
+    width: 300px;
+}
+
+.escritura-img {
+    max-width: 100%;
+    width: 300px;
+}
+
+/*--- HOBBY ENDS ---*/
 
 /*--- FOOTER SECTION ---*/
 
@@ -297,5 +409,5 @@ p:last-child {
 
 .link__footer:hover {
     color: #eee;
-    text-shadow: #eee 0px 0 10px ;
+    text-shadow: #eee 0px 0 10px;
 }
