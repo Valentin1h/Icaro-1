@@ -123,10 +123,14 @@ h1 {
     width: 100%;
     min-width: 200px;
     max-width: 1000px;
-    box-shadow: 0 0 10px 0px #ff600990;
     border-radius: 20px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    transition: 2s;
+}
+
+.image__kobe:hover {
+    box-shadow:  0px 0px 9px 1px #0cc8;
 }
 
 .parrafo__info {
@@ -219,14 +223,15 @@ p:last-child {
 }
 
 .img__profile {
-    box-shadow: 2px 2px 5px 0;
+    border: 1px solid #48e;
+    box-shadow: 0.0px 2px 0px 2px #48e;
     max-width: 100%;
     width: 300px;
     border-radius: 20px;
 }
 
 .h1__portafolio {
-    color: #fa1;
+    color: #46e;
 }
 
 .profile__data-container {
@@ -243,6 +248,7 @@ p:last-child {
     .h1__portafolio {
         margin-top: 0;
         font-size: 3rem;
+        color: #e609;
     }
 
     .profile__wrapper {
@@ -275,6 +281,8 @@ p:last-child {
         height: 100%;
         width: 500px;
         object-fit: cover;
+        border: none;
+        box-shadow: none;
         border-radius: 30px 0 0 30px;
     }
 
@@ -286,9 +294,8 @@ p:last-child {
 /*--- CONTACTO SECTION ---*/
 
 .contacto__wrapper {
+    max-width: 800px;
     margin: auto;
-    margin-top: 2.5rem;
-    max-width: 900px;
 }
 
 .h2__contact {
@@ -296,20 +303,20 @@ p:last-child {
 }
 
 .legend {
-    background-color: #48e;
-    color: #fff;
+    background: radial-gradient(#f11, #faa);
+    color: #000;
     padding: 5px;
     border-radius: 10px;
-    border: solid;
-    box-shadow: 0 0 10px 1px;
+    border: solid 2px #000;
 }
 
 
 .fieldset {
     border-radius: 10px;
-    border: solid 6px #0003;
+    border: solid 1px #000;
     margin: 2.5rem;
-    background-color: #12183f;
+    background: linear-gradient(to right, #223,#111);
+    box-shadow: 0 0 15px 1px #f118;
 }
 
 .label {
@@ -322,8 +329,7 @@ p:last-child {
     font-size: 20px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #fff;
-    border-left: solid 2px #fff;
+    border-left: solid 5px #f005;
     border-radius: 9px;
     color: #fff;
 }
@@ -334,28 +340,38 @@ p:last-child {
     font-size: 20px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #fff;
-    border-left: solid 2px #fff;
+    border-left: solid 5px #f005;
     border-radius: 9px;
     color: #fff;
 }
 
 #mensaje {
     margin: 20px 0;
+    font-size: 20px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #fff;
-    border-left: solid 2px #fff;
+    border-left: solid 5px #f005;
     border-radius: 9px;
     color: #fff;
+    resize: none;
+    overflow: auto;
 }
 
 .button__form {
     margin: 10px;
     font-size: 20px;
-    background-color: #0002;
-    color: #48e;
+    background-color: #0008;
+    color: #f00e;
     margin-bottom: 3%;
+}
+
+/*--- CONTACTO QUERIES ---*/
+
+@media screen and (min-width: 700px) {
+    .contacto__wrapper {
+        font-size: 20px;
+    }
+
 }
 
 /*--- CONTACTO SECTION END ---*/
@@ -367,6 +383,10 @@ p:last-child {
     text-decoration: underline;
     color: #48e;
     margin-top: 3rem;
+}
+
+.h3__hobby {
+    color: #fe0;
 }
 
 .hobby__main-wrapper {
