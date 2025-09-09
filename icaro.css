@@ -111,11 +111,19 @@ body {
 
 h1 {
     margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .main {
     margin: 30px;
     z-index: 30;
+}
+
+.title__accion {
+    text-wrap: balance;
+    justify-content: center;
+    color: #f60;
+    text-decoration: none;
 }
 
 .image__kobe {
@@ -124,7 +132,7 @@ h1 {
     min-width: 200px;
     max-width: 1000px;
     border-radius: 20px;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
     transition: 2s;
 }
@@ -152,8 +160,12 @@ p:last-child {
 
 .container__section {
     margin-top: 3rem;
-    
 }
+
+
+ html {
+    scroll-behavior: smooth;
+ }
 
 .title-cards {
     margin-bottom: 2rem;
@@ -187,6 +199,14 @@ p:last-child {
 /*--- MAIN QUERIES ---*/
 
 @media screen and (min-width: 720px) {
+    .title__accion {
+        font-size: 30px;
+    }
+
+    .parrafo__info {
+        font-size: 25px;
+    }
+
     .container__grid-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
