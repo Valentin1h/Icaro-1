@@ -396,40 +396,42 @@ p:last-child {
 
 /*--- CONTACTO SECTION END ---*/
 
-/*--- HOBBY SECTION ---*/
+/*--- SALUD SECTION ---*/
 
-.h2__hobby {
-    font-size: 35px;
-    text-decoration: underline;
-    color: #48e;
+.salud__main {
+    height: 100vh;
+}
+
+.title__habitos {
     margin-top: 3rem;
+    color: #5f9;
 }
 
-.h3__hobby {
-    color: #fe0;
+#input__habito {
+    background-color: transparent;
+    color: #0f8;
+    border-radius: 10px;
 }
 
-.hobby__main-wrapper {
-    text-align: center;
-    text-wrap: balance;
-    font-size: 20px;
+#list__habitos {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    gap: 6px;
+    list-style: none;
+    margin: 0;          
+    padding: 0;         
+    max-height: 200px;
+    overflow-y: auto;
     margin: auto;
 }
 
-.lectura-img {
-    max-width: 100%;
-    width: 300px;
+#button__habito {
+    background-color: #0f8;
+    font-size: 15px;
+    border-radius: 10px;
 }
 
-.escritura-img {
-    max-width: 100%;
-    width: 300px;
-}
-
-/*--- HOBBY ENDS ---*/
+/*--- SALUD ENDS ---*/
 
 /*--- FOOTER SECTION ---*/
 

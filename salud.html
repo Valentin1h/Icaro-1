@@ -23,34 +23,16 @@
             </ul>
         </nav>
     </header>
-    <div class="contacto__wrapper">
-        <form action="#" method="post">
-            <fieldset class="fieldset">
-            <legend class="legend"><h2 class="h2__contact">FORMULARIO DE CONTACTO</h2></legend>
-
-
-            <fieldset class="fieldset">
-                <legend class="legend"><label class="label" for="nombre">Nombre</label><br></legend>
-                <input type="text" id="nombre" name="nombre" required>
-                <br>
-                <br>
-            </fieldset>
-            <fieldset class="fieldset">
-                <legend class="legend"><label class="label" for="email">Email</label><br></legend>
-                <input type="text" id="email" name="email" required>
-                <br>
-                <br>
-            </fieldset>
-            <fieldset class="fieldset">
-                <legend class="legend"><label for="mensaje">Envia tu mensaje</label></legend><br>
-                <textarea name="mensaje" id="mensaje" rows="1" cols="30" required></textarea><br>
-            </fieldset>
-
-            <input class="button__form" type="submit" value="Enviar">
-            </fieldset>
-        </form>
-    </div>
-    <footer class="footer">
+    <main class="salud__main">
+        <section>
+            <h2 class="title__habitos">Lista de Habitos</h2>
+            <input type="text" id="input__habito" placeholder="Escribe un habito">
+            <button id="button__habito">Agregar habito</button>
+            <p id="mensaje__error"></p>
+            <ul id="list__habitos"></ul>
+        </section>
+    </main>
+        <footer class="footer">
         <p>
             Derechos reservados @ 2025
         </p>
@@ -58,5 +40,6 @@
             <a class="link__footer" href="mailto:valentingigena51@gmail.com">valentingigena51@gmail.com</a>
         </div>
     </footer>
+    <script src="icaro.js"></script>
 </body>
 </html>
