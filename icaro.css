@@ -431,6 +431,30 @@ p:last-child {
     border-radius: 10px;
 }
 
+.calculadora {
+    color: #5f9;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+#horaDormir {
+    color: #000;
+    background-color: #0f8;
+}
+
+#horaDespertar {
+    color: #000;
+    background-color: #0f8;
+}
+
+#calcularSueño {
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
 /*--- SALUD ENDS ---*/
 
 /*--- FOOTER SECTION ---*/
